@@ -136,6 +136,11 @@ select {
   margin-left: -15px;
   position: relative;
 }
+.todoapp {
+  width: 800px;
+  height: 265px;
+}
+
 .padd-15 {
   padding-left: 15px;
   padding-right: 15px;
@@ -1118,6 +1123,7 @@ body.dark .shadow-dark {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 
 /* ====================================================== */
 /* ---------------  Responsive Css Stared */
