@@ -757,10 +757,12 @@ select {
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+
   -webkit-transform: translateX(-20px);
   transform: translateX(-20px);
   opacity: 0;
@@ -989,6 +991,21 @@ select {
   text-decoration: none;
   font-weight: 600;
 }
+.clickable-link a {
+
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.clickable-link a:hover {
+  color: #2196f3;
+  font-size: 22px; /* Increase the font size on hover */
+  text-shadow: 0 0 1px rgba(0, 60, 255, 0.7);
+}
+
 
 /* Contact Section */
 
